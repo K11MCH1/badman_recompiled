@@ -1,0 +1,312 @@
+{
+  "module": "sceFont_Library",
+  "disc_path": "disc0:/PSP_GAME/USRDIR/data_usa/module/libfont.prx",
+  "input_sha256": "9299ee0327b512a333529e4305316ee842f2743b4f1f19083e92e3eb1af04afe",
+  "unpacked_sha256": "c0edf06ff6ec56d2824b3fe87ed53758df741fc339c783d4085e630a874e4ffc",
+  "prepared_sha256": "cd2f652f0fad3113febdf0b24317fda816a3f4b5a309e740b999248a68d3cfb6",
+  "load_base": "0x9fd0000",
+  "load_size": "0x8254",
+  "gp": "0x9fe0190",
+  "entry": "0xFFFFFFFF",
+  "module_info_relative": "0x799C",
+  "snapshots": [
+    {
+      "file": "base09fd-09fd0000.bin",
+      "sha256": "b7f72d447f711f26302af37391b1a45a95d590680a25183212f0de4258381c24",
+      "vaddr": "0x0",
+      "filesz": "0x801C",
+      "memsz": "0x801C",
+      "flags": 5
+    },
+    {
+      "file": "base09fd-09fd8020.bin",
+      "sha256": "62ee40d919bada3333ac0420a6471d00533a18fd99ec47faa8ee051029c6ca93",
+      "vaddr": "0x8020",
+      "filesz": "0x178",
+      "memsz": "0x234",
+      "flags": 6
+    }
+  ],
+  "exports": [
+    {
+      "library": "syslib",
+      "nid": "0xf01d73a7",
+      "address_relative": "0x799c",
+      "kind": "variable",
+      "name": ""
+    },
+    {
+      "library": "syslib",
+      "nid": "0x11b97506",
+      "address_relative": "0x7e34",
+      "kind": "variable",
+      "name": ""
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x2d7f94b",
+      "address_relative": "0x6a84",
+      "kind": "function",
+      "name": "sceFontFlush"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x99ef33c",
+      "address_relative": "0x960",
+      "kind": "function",
+      "name": "sceFontFindOptimumFont"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xda7535e",
+      "address_relative": "0x1334",
+      "kind": "function",
+      "name": "sceFontGetFontInfo"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x27f6e642",
+      "address_relative": "0x828",
+      "kind": "function",
+      "name": "sceFontGetNumFontList"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x2f67356a",
+      "address_relative": "0x1038",
+      "kind": "function",
+      "name": "sceFontCalcMemorySize"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x3aea8cb6",
+      "address_relative": "0x6880",
+      "kind": "function",
+      "name": "sceFontClose"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x3c4b7e82",
+      "address_relative": "0x6a30",
+      "kind": "function",
+      "name": "sceFontPointToPixelV"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x472694cd",
+      "address_relative": "0x69fc",
+      "kind": "function",
+      "name": "sceFontPointToPixelH"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x48293280",
+      "address_relative": "0x7e4",
+      "kind": "function",
+      "name": "sceFontSetResolution"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x48b06520",
+      "address_relative": "0x197c",
+      "kind": "function",
+      "name": "sceFontGetShadowImageRect"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x5333322d",
+      "address_relative": "0x1064",
+      "kind": "function",
+      "name": "sceFontGetFontInfoByIndexNumber"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x568be516",
+      "address_relative": "0x1b7c",
+      "kind": "function",
+      "name": "sceFontGetShadowGlyphImage"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x574b6fbc",
+      "address_relative": "0x788",
+      "kind": "function",
+      "name": "sceFontDoneLib"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x57fcb733",
+      "address_relative": "0x1228",
+      "kind": "function",
+      "name": "sceFontOpenUserFile"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x5c3e4a9e",
+      "address_relative": "0x1860",
+      "kind": "function",
+      "name": "sceFontGetCharImageRect"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x5dcf6858",
+      "address_relative": "0x1ebc",
+      "kind": "function",
+      "name": "sceFontGetShadowGlyphImage_Clip"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x67f17ed7",
+      "address_relative": "0x480",
+      "kind": "function",
+      "name": "sceFontNewLib"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x681e61a7",
+      "address_relative": "0xd68",
+      "kind": "function",
+      "name": "sceFontFindFont"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x74b21701",
+      "address_relative": "0x68e4",
+      "kind": "function",
+      "name": "sceFontPixelToPointH"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0x980f4895",
+      "address_relative": "0x1a34",
+      "kind": "function",
+      "name": "sceFontGetCharGlyphImage"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xa834319d",
+      "address_relative": "0x1150",
+      "kind": "function",
+      "name": "sceFontOpen"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xaa3de7b5",
+      "address_relative": "0x1718",
+      "kind": "function",
+      "name": "sceFontGetShadowInfo"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xbb8e7fe6",
+      "address_relative": "0x12c8",
+      "kind": "function",
+      "name": "sceFontOpenUserMemory"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xbc75d85b",
+      "address_relative": "0x888",
+      "kind": "function",
+      "name": "sceFontGetFontList"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xca1e6945",
+      "address_relative": "0x1ccc",
+      "kind": "function",
+      "name": "sceFontGetCharGlyphImage_Clip"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xdcc80c2f",
+      "address_relative": "0x1630",
+      "kind": "function",
+      "name": "sceFontGetCharInfo"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xee232411",
+      "address_relative": "0x6a64",
+      "kind": "function",
+      "name": "sceFontSetAltCharacterCode"
+    },
+    {
+      "library": "sceLibFont",
+      "nid": "0xf8f0752e",
+      "address_relative": "0x6970",
+      "kind": "function",
+      "name": "sceFontPixelToPointV"
+    }
+  ],
+  "imports": [
+    {
+      "library": "sceReg",
+      "nid": "0xcae832b",
+      "stub_relative": "0x7904",
+      "name": "sceRegCloseCategory"
+    },
+    {
+      "library": "sceReg",
+      "nid": "0x1d8a762e",
+      "stub_relative": "0x790c",
+      "name": "sceRegOpenCategory"
+    },
+    {
+      "library": "sceReg",
+      "nid": "0x28a8e98a",
+      "stub_relative": "0x7914",
+      "name": "sceRegGetKeyValue"
+    },
+    {
+      "library": "sceReg",
+      "nid": "0x92e41280",
+      "stub_relative": "0x791c",
+      "name": "sceRegOpenRegistry"
+    },
+    {
+      "library": "sceReg",
+      "nid": "0xd4475aa8",
+      "stub_relative": "0x7924",
+      "name": "sceRegGetKeyInfo"
+    },
+    {
+      "library": "sceReg",
+      "nid": "0xfa8a5739",
+      "stub_relative": "0x792c",
+      "name": "sceRegCloseRegistry"
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x6a638d83",
+      "stub_relative": "0x78dc",
+      "name": "sceIoRead"
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x810c4bc3",
+      "stub_relative": "0x78e4",
+      "name": "sceIoClose"
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0xace946e8",
+      "stub_relative": "0x78ec",
+      "name": "sceIoGetstat"
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x109f50bc",
+      "stub_relative": "0x78f4",
+      "name": "sceIoOpen"
+    },
+    {
+      "library": "IoFileMgrForUser",
+      "nid": "0x27eb27b8",
+      "stub_relative": "0x78fc",
+      "name": "sceIoLseek"
+    }
+  ],
+  "registration": "psprecomp::register_badman_font_functions",
+  "range_source": "Ghidra 12.1.3 + Allegrex v21.4; verified exports seeded, analysis completed; 7749 defined instructions in 6 contiguous runs. Original compact PRX normalized externally; fixed base must be reserved by host. Rebased to09FD0000 from the same verified relative instruction map using an isolated Ghidra loader;902 APPLIED relocations."
+}

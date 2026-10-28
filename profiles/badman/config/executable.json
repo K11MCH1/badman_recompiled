@@ -1,0 +1,17 @@
+{
+  "disc_id": "ULUS10456",
+  "disc_version": "1.01",
+  "iso_sha256": "7220fe007f79914c7fbddc270062b9a589526ed727b28d31a0bb455e3bd29b14",
+  "iso_size": 157220864,
+  "elf_sha256": "722332263291bcd4a342566acb5c239e572c045d6f7e385e49ccdc66ccddbf67",
+  "entry": "0x088E8790",
+  "module": "yuusha",
+  "module_gp": "0x0891F420",
+  "code_start": "0x08804000",
+  "import_stubs_start": "0x088E9A30",
+  "import_stubs_end": "0x088E9F50",
+  "file_backed_end": "0x08917430",
+  "constructors_begin": "0x089169C0",
+  "constructors_end": "0x08916B84",
+  "range_source": "Ghidra 12.1.3 with Allegrex v21.4; DefineBadmanEntryPoints.java seeds user_main and 113 .data constructors, followed by analysis and ExportBadmanCode.java"
+}

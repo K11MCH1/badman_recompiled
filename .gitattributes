@@ -1,0 +1,11 @@
+# The source-only packager pins exact bytes (SHA-256) of these files.
+# Keep checkout line endings identical to the reviewed sources.
+profiles/badman/** -text
+# So do the framework files the packager copies into runtime-source
+# (profiles/badman/config/source_bundle.json): check them out as stored.
+/LICENSE -text
+/CMakeLists.txt -text
+/include/** -text
+/src/** -text
+/tools/** -text
+/third_party/** -text

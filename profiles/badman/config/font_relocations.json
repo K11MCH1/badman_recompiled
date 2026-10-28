@@ -1,0 +1,5422 @@
+{
+  "schema": 1,
+  "algorithm": "masked_modular_addition",
+  "source_sha256": "c0edf06ff6ec56d2824b3fe87ed53758df741fc339c783d4085e630a874e4ffc",
+  "load_base": "0x09FD0000",
+  "relocation_count": 902,
+  "provenance": "Independently observed relocation-field facts from 902 APPLIED external Ghidra Allegrex loader records. Contains segment-relative offsets, field masks and modular base/carry additions only; no source/destination instruction words or asset bytes. Output identity is independently locked by font_module.json.",
+  "operations": [
+    {
+      "segment": 0,
+      "offset": "0x0034",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x011C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0148",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0160",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0200",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0204",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0268",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x02A4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x02AC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x02EC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x02F4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0380",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x03C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0410",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0480",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0484",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x04A0",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x057C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0614",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x064C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x06DC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x06E8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0710",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0728",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0730",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0734",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0738",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x074C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0754",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0758",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0768",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0770",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0778",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x077C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0780",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x07A4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x07B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x07DC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x086C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0878",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0880",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x08BC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x08D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x08FC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0918",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x094C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0958",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x09C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0A20",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0A2C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0A38",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0AE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0B18",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0B24",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0B3C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0B44",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0C14",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0C70",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0C80",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0CDC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0CEC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0CFC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D0C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D1C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D28",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D38",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D4C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D54",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0D60",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0DC8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0E1C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0EC4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0F80",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0F90",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FA4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FB4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FC4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FD4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x0FF4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1000",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1010",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1020",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1028",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1030",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x105C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x10A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1148",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1198",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x11D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x120C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1220",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1264",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x128C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x12C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1310",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1324",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x132C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x13CC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x13FC",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1400",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x141C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1438",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1454",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x15B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x15D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x15F0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x160C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1628",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1670",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1698",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1760",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x17D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x17F8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1858",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1898",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x18C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x191C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1964",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x196C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1974",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x19EC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1A0C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1A2C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1A74",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1A9C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1B14",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1B40",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1B5C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1B6C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1B74",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1BE0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1C00",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1C48",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1C50",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1C88",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1C90",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1CBC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1CC4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1DAC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1DD4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1E14",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1E30",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1E70",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1E8C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1EAC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1EB4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1F8C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1FAC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1FF4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x1FFC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2034",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x203C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2068",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2070",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x20C4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x20CC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2104",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2144",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x214C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x21A0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x21A8",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x21D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2200",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2208",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2284",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x22B0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x22D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2310",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2318",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2320",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2364",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x23C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x23E0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2470",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2478",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2480",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2534",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x253C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x25F0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x25F8",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2614",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2634",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2658",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2660",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x267C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x26C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x26DC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x26EC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2778",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2780",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x278C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2798",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27B0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27CC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27D4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27DC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x27F4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x280C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2814",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2834",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2858",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x285C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2864",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2880",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2898",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x28A0",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x28C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x28D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x28E0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x28EC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2908",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2910",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2944",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x297C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x29A0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x29BC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x29CC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x29D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x29E8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2A10",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2A24",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2A50",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2A7C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2AE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2B10",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2B58",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2B7C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2BA8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x2BB0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3130",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x316C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3174",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x318C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x327C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3294",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x32D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x331C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3360",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x338C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x33A0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x33B4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x33C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x343C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3524",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x352C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3544",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3620",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3684",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3700",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3778",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x37D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3800",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3844",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3858",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x386C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3880",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3894",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x38A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x38B0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x38C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x38FC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3904",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x390C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3A08",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3A5C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3A8C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3AE0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3AF8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3B5C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3B84",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3B94",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3BBC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3BCC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3C54",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3C98",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3C9C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3CE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3CF8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3D00",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3D44",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3D48",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3D8C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3D9C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3DC4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3DD4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3DEC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3E04",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3E34",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3E7C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3EA8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3EB0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3EB8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3ECC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3ED4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3F30",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3F84",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x3FB4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4028",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4060",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x410C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x41A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x41B0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x41B4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x41FC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x420C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4238",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4248",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4270",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4280",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4298",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x42C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x42D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4304",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x434C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4378",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4380",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4388",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x43A0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x43A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4638",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4680",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x46C8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x46D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x46E4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4904",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4918",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4988",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x49B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4A40",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4A54",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4AF4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4B10",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4BCC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4BE0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4BF4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C08",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C1C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C30",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C44",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C58",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C6C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4C80",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4D6C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4D7C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4D90",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4DA4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4DB8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4DC4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4DE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4E3C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F38",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F4C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F60",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F74",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F88",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4F9C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4FD8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x4FF8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5050",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x511C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5170",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5210",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5248",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5280",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x52BC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5374",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x539C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53AC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53CC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53F0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x53FC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5408",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5420",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x542C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x543C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5450",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x545C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5480",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x54D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5598",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x55C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5600",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5620",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5634",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5670",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x568C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x56A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x56D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x570C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5720",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5734",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5770",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5784",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x57A8",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x57AC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5814",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x586C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x587C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x58AC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x58D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x596C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5970",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5AA8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5AD0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B10",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B18",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B1C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B2C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B4C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B64",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B6C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B70",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B74",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5B9C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5BBC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5BCC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5BDC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5BE4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5BE8",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C04",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C30",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C48",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C50",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C54",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C64",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5C88",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5CA8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5CCC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5CD4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5CD8",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5CE4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D04",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D24",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D38",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D40",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D48",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D58",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D60",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D68",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D70",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5D90",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5DB8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E10",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E18",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E20",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E24",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E38",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E44",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E48",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E4C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E50",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E64",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E70",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5E88",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5ED4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5ED8",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5F24",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5F50",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5F5C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5F74",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5F88",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5FA4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5FC8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x5FE4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6004",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6010",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x602C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6034",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x603C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6044",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6054",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6080",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x60A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x60D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x60E0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x60E4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x60F4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6114",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x612C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6134",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6138",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x613C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6164",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6184",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6194",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x619C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x61A4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x61AC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x61B4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x61BC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x61D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6248",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x624C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x62B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x62C8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x62E0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x62F0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6314",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6324",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6358",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x63A4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x63B8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x63C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x63D8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x63E4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6408",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6424",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6434",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6454",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6458",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6490",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x64A4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x64C8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x650C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6510",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x657C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6594",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x65AC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x65D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6600",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6628",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x662C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6678",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x668C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x66B4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x66C4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x66CC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6768",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x68CC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x68D4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x68DC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x691C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6934",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6938",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6960",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6968",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x69A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x69C0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x69C4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x69EC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x69F4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6A14",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6A18",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6A48",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6A4C",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6A98",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6AF4",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6AFC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6B3C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6BF8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C0C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C20",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C34",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C48",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C5C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C70",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C84",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6C98",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6CDC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6D78",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6DD8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6DE0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6DFC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6E18",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6EF0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x6EFC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7050",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7088",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7148",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7154",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x717C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x71E0",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x71E4",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7218",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7248",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7250",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7274",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x72C4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x72F8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7304",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7330",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x735C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x736C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7380",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x738C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x73BC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x73D0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x73DC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7490",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7494",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x75F4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7620",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x763C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x764C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7658",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7668",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7674",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x76B0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x76C0",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x76F4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7704",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x770C",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7710",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7754",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7764",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x778C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x779C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x77A8",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x77E4",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x77FC",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7814",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x783C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7860",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7868",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7870",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7878",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FD"
+    },
+    {
+      "segment": 0,
+      "offset": "0x787C",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7880",
+      "mask": "0x0000FFFF",
+      "addend": "0x00000000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7898",
+      "mask": "0x03FFFFFF",
+      "addend": "0x027F4000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x78C8",
+      "mask": "0x0000FFFF",
+      "addend": "0x000009FE"
+    },
+    {
+      "segment": 0,
+      "offset": "0x78CC",
+      "mask": "0x0000FFFF",
+      "addend": "0x00008020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7950",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7954",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7960",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7970",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x797C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7980",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7984",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7990",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7994",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79BC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79C0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79C4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79C8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79CC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x79FC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A00",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A80",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A84",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A88",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A8C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A90",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A94",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A98",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7A9C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AA0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AA4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AA8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AAC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AB0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AB4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AB8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ABC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AC0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AC4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AC8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ACC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AD0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AD4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AD8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ADC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AE0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AE4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AE8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7AEC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7CF4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7CF8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7CFC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D00",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D04",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D08",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D0C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D10",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D14",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D18",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D1C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D20",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D24",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D28",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D2C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D30",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D34",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D38",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D3C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D40",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D44",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D48",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D4C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D50",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D54",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D58",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D5C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D60",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D64",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D68",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D6C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D70",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D74",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D78",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D7C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D80",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D84",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D88",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D8C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D90",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D94",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D98",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7D9C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DA0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DA4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DA8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DAC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DB0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DB4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DB8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DBC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DC0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DC4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DC8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DCC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DD0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DD4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DD8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DDC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DE0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DE4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DE8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DEC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DF0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DF4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DF8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7DFC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E00",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E04",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E08",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E0C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E10",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E14",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E18",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E1C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E20",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E24",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E28",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E2C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E30",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E38",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E3C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E40",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E44",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E48",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E4C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E50",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E54",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E58",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E5C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E60",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E64",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E68",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E6C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E70",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E74",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E78",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E7C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E80",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E84",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E88",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E8C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E90",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E94",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E98",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7E9C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EA0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EA4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EA8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EAC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EB0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EB4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EB8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EBC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EC0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EC4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EC8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ECC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ED0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ED4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7ED8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EDC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EE0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EE4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EE8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EEC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EF0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EF4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EF8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7EFC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F00",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F04",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F08",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F0C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F10",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F14",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F18",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F1C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F20",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F24",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F28",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F2C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F30",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F34",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F38",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F3C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F40",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F44",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F48",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F4C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F50",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F54",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F58",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F5C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F60",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F64",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F68",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F6C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F70",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F74",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F78",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F7C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F80",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F84",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F88",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F8C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F90",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F94",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F98",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7F9C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FA0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FA4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FA8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FAC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FB0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FB4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FB8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FBC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FC0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FC4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FC8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FCC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FD0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FD4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FD8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FDC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FE0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FE4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FE8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FEC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FF0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FF4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FF8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x7FFC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8000",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8004",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8008",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x800C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8010",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8014",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 0,
+      "offset": "0x8018",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0044",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0048",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0050",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0054",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x005C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0060",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0068",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x006C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0074",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0078",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0080",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0084",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x008C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0090",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x0098",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x009C",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00A4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00A8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00B0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00B4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00BC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00C0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00C8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00CC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00D4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00D8",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00E0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00E4",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00EC",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD0000"
+    },
+    {
+      "segment": 1,
+      "offset": "0x00F0",
+      "mask": "0xFFFFFFFF",
+      "addend": "0x09FD8020"
+    }
+  ]
+}

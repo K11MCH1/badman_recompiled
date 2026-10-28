@@ -1,0 +1,20 @@
+{
+  "component": "FFmpeg external shared video codec",
+  "version": "n8.1.3-9-g29e619e767-20260930",
+  "architecture": "Windows AMD64",
+  "license": "LGPL-3.0-or-later",
+  "archive_url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-09-30-13-08/ffmpeg-n8.1.3-9-g29e619e767-win64-lgpl-shared-8.1.zip",
+  "asset_api_url": "https://api.github.com/repos/BtbN/FFmpeg-Builds/releases/assets/600950511",
+  "asset_id": 600950511,
+  "archive_size": 80733362,
+  "archive_sha256": "3e47bda1607740550141e37c0e49d1e5182b34699f15adfd137ee266d346811a",
+  "source_commit": "29e619e767cde9045a75c29bc9a8278ae7b3a98b",
+  "source_url": "https://github.com/FFmpeg/FFmpeg/tree/29e619e767cde9045a75c29bc9a8278ae7b3a98b",
+  "required_runtime_dlls": [
+    "avcodec-62.dll",
+    "avutil-60.dll",
+    "swresample-6.dll",
+    "swscale-9.dll"
+  ],
+  "build_notes": "Hash-locked LGPLv3-or-later shared monthly build. Publisher retains month-end builds for two years; maintenance is still required if availability/policy changes. Native 15-track raw/played ATRAC PCM and 385-frame movie-service hashes match the earlier validated daily build. DLLs/headers download only into the user tool cache; no codec implementation is copied into the MIT profile. Existing verified v3 daily cache remains preserved beside the new content-addressed version."
+}

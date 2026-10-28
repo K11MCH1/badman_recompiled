@@ -1,0 +1,737 @@
+{
+  "schema": 1,
+  "game_independent_source_only": true,
+  "notes": "Exact reviewed independent framework/profile source and address facts; no game-generated code or commercial inputs.",
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 6739,
+      "sha256": "e3ced1e2d5293dd487818110f84f0554f9e8393a990d9677c00b51e3a4a9188b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "fae5df829cf209894cb5bc7b284f759266cc959a9fc06734b5186c72bbc8d70d"
+    },
+    {
+      "path": "include/psprecomp/allegrex_context.hpp",
+      "bytes": 74156,
+      "sha256": "be9d83b759550608b756867882f3dff4975433ccd5bde1740a6efcf07b7fc867"
+    },
+    {
+      "path": "include/psprecomp/codegen_policy.hpp",
+      "bytes": 742,
+      "sha256": "56bef5b5aca276657ccc139b744a691cddd355fbbb87633026ff14f705bb12b5"
+    },
+    {
+      "path": "include/psprecomp/common.hpp",
+      "bytes": 533,
+      "sha256": "4db5bf85250af43014b322c4b4f6552c8095189b325d397aeab5556470596ff1"
+    },
+    {
+      "path": "include/psprecomp/decoder.hpp",
+      "bytes": 1650,
+      "sha256": "f028db58c1abaccfc31ea23847ca4229516b3d199d04091c1a9153210d1821d7"
+    },
+    {
+      "path": "include/psprecomp/deflate.hpp",
+      "bytes": 888,
+      "sha256": "2e4cbb9fce4cdd32cdda09331e4b0094619f88100024d793ca9d6ffc50159c5f"
+    },
+    {
+      "path": "include/psprecomp/elf32.hpp",
+      "bytes": 4472,
+      "sha256": "be6af2b5e82b5250dba7d5f9000d49e99563856fe41452f2a644bb8c9f9998a1"
+    },
+    {
+      "path": "include/psprecomp/guest_memory.hpp",
+      "bytes": 16875,
+      "sha256": "6a9a2ae8ce8d3500f16b4d0ab86bf989769279178765541e29147d0d568ee144"
+    },
+    {
+      "path": "include/psprecomp/iso9660.hpp",
+      "bytes": 1307,
+      "sha256": "b459225a559123761d62ab91c4f0dc4cd567e665776d73742f6af14373bfc45b"
+    },
+    {
+      "path": "include/psprecomp/nid_registry.hpp",
+      "bytes": 774,
+      "sha256": "3d72204ede4798d1ac7710d3b601d5a6aef7beede77be295251534e7e359ffa9"
+    },
+    {
+      "path": "include/psprecomp/program_analysis.hpp",
+      "bytes": 1495,
+      "sha256": "d8c0dc190fb159bfd5229b261a79233513869101e1a0f015143bdebe9a915dd0"
+    },
+    {
+      "path": "include/psprecomp/runtime.hpp",
+      "bytes": 22447,
+      "sha256": "2c03664dc8e14ae76edad1b3dd525d06b86b52e11e593aa9a2ae06ebf28ceae5"
+    },
+    {
+      "path": "include/psprecomp/sha256.hpp",
+      "bytes": 657,
+      "sha256": "4f1a8e712d834afb0137bb1be1fc03e951e80d66d73be76ed31676f1ca735730"
+    },
+    {
+      "path": "profiles/badman/CMakeLists.txt",
+      "bytes": 23809,
+      "sha256": "ad8d3b931b458f5abef4cd269e105041e609d2403fc7433e5aa043e5413f962e"
+    },
+    {
+      "path": "profiles/badman/config/code_ranges.csv",
+      "bytes": 17605,
+      "sha256": "4989443acd926ad7a9e3a68abba5e6f2e95e4491e96176f3f3f834b6083dc2cd"
+    },
+    {
+      "path": "profiles/badman/config/executable.json",
+      "bytes": 713,
+      "sha256": "0de13b14b7039bf306aad8d32c76da41ce858ae403d214658d0eb8ce1580ec15"
+    },
+    {
+      "path": "profiles/badman/config/ffmpeg_sdk_files.json",
+      "bytes": 24078,
+      "sha256": "f6ecd699b9eb2c3b3ef50cbd2c57678daf32dce225a1cce3d5e229610c3bcb44"
+    },
+    {
+      "path": "profiles/badman/config/font_code_ranges.csv",
+      "bytes": 215,
+      "sha256": "c0c1c5dd8a6f0525072c85595506ccc0f18cdd1fb893a239825bde230da424f1"
+    },
+    {
+      "path": "profiles/badman/config/font_module.json",
+      "bytes": 7973,
+      "sha256": "d031a6a61068c873deb0645462f89409d71ea60f7249245bc1379139abf81a10"
+    },
+    {
+      "path": "profiles/badman/config/font_relocations.json",
+      "bytes": 105183,
+      "sha256": "0dcc72d6bfd4605a8a17c7f5381ecec09f03db36b765337d32e14d767f687776"
+    },
+    {
+      "path": "profiles/badman/config/toolchain_dependencies.json",
+      "bytes": 71485,
+      "sha256": "dc955356776e6c1fad823e164993edba1dc0411d0e04a2600b4a65fd02ba825b"
+    },
+    {
+      "path": "profiles/badman/config/video_codec.json",
+      "bytes": 1344,
+      "sha256": "a92b8a0a90dbbd7ac0c115b2b305e8754290c499fbcb03ebdbb703319faa665d"
+    },
+    {
+      "path": "profiles/badman/host/atrac_probe.cpp",
+      "bytes": 4887,
+      "sha256": "6fdb13d1e853a4c33ed211d56909c366b9e158fad69f264b89452f9ebf4d8857"
+    },
+    {
+      "path": "profiles/badman/host/badman.ico",
+      "bytes": 23522,
+      "sha256": "65eeb0086f169de06d30466ceb8433db61a2e192bcafbf1134286f084dcc5437"
+    },
+    {
+      "path": "profiles/badman/host/badman.rc",
+      "bytes": 190,
+      "sha256": "a02d299b9fb3e4fae0cc2b4683a3f4f296c8ad6d3523e080bb1ffb7ea581e336"
+    },
+    {
+      "path": "profiles/badman/host/badman_atrac.cpp",
+      "bytes": 9778,
+      "sha256": "6a89601e43901eecf3adb8af9f41fa8b866cde480a496c351c24b386ffeb4ca3"
+    },
+    {
+      "path": "profiles/badman/host/badman_atrac.hpp",
+      "bytes": 4546,
+      "sha256": "95580996a8fc50fda58b01ac286fa44bebba9a3a0efe9213897a32e7c29a740c"
+    },
+    {
+      "path": "profiles/badman/host/badman_atrac_ffmpeg.cpp",
+      "bytes": 8546,
+      "sha256": "06dfb0c44f36cb251df9e0c07a18da2035ee18e0a9193b2c4b0b191848a7a800"
+    },
+    {
+      "path": "profiles/badman/host/badman_atrac_hle.cpp",
+      "bytes": 7462,
+      "sha256": "7ec67998818bd300699e69bc722b1fec4780583e3b22d445a7ee9ac07a234040"
+    },
+    {
+      "path": "profiles/badman/host/badman_audio.cpp",
+      "bytes": 23559,
+      "sha256": "600343550444bdbad4a49254b7a7596215facbe6d8dfd7f8673c86f28dfa51a4"
+    },
+    {
+      "path": "profiles/badman/host/badman_audio.hpp",
+      "bytes": 4126,
+      "sha256": "292cf2e9888114dfd27208a85dc29bac9ddf9d51e9cb78a529771476a74007cb"
+    },
+    {
+      "path": "profiles/badman/host/badman_audio_hle.cpp",
+      "bytes": 10528,
+      "sha256": "97dc3f04c74970c35725d61e0b4f1f0c14c785f1e83dc85a3e4a763e2cb5d4b3"
+    },
+    {
+      "path": "profiles/badman/host/badman_capture_file.hpp",
+      "bytes": 1647,
+      "sha256": "2e2b711e7f01f80cd36ebe600034cd46845f91d4956f9868c902c5cecedb19e5"
+    },
+    {
+      "path": "profiles/badman/host/badman_clock.cpp",
+      "bytes": 3405,
+      "sha256": "8bfe605a62a81fd44cfcc601adff6da70b3daf89876da3314e966c0f30ab1c90"
+    },
+    {
+      "path": "profiles/badman/host/badman_clock.hpp",
+      "bytes": 646,
+      "sha256": "a4d1da87b516df794e226e3b55324eb4107c7eeafe98792a206efb17f3ca3bf9"
+    },
+    {
+      "path": "profiles/badman/host/badman_clut.cpp",
+      "bytes": 5566,
+      "sha256": "fa6db2f9977e2bf1b3206c9a2c0f372b97ae91493a6254fb8b90fe003dccf885"
+    },
+    {
+      "path": "profiles/badman/host/badman_clut.hpp",
+      "bytes": 1885,
+      "sha256": "4245467fab406cfab628083f0b9fd639b5c13120b282f2366d278d844319b700"
+    },
+    {
+      "path": "profiles/badman/host/badman_disc.cpp",
+      "bytes": 8498,
+      "sha256": "cbac6d5719da88c5c8cd28f33b8f2044121adc0c4c53de9e6f9e371ae6070afb"
+    },
+    {
+      "path": "profiles/badman/host/badman_disc.hpp",
+      "bytes": 2010,
+      "sha256": "f79dc9c2403583bcac3c25112d67acdad3f0005603284bca29918c624197bec9"
+    },
+    {
+      "path": "profiles/badman/host/badman_display.cpp",
+      "bytes": 6594,
+      "sha256": "d0df583fdd7f426ed687a74b4c5993f07d3f3b54141dd8a79dd06b23c54490b4"
+    },
+    {
+      "path": "profiles/badman/host/badman_display_timing.cpp",
+      "bytes": 7638,
+      "sha256": "12f41319bf1b304b3ba5e3f5d21187a267be688a9edf41e06cd5831cbbef2240"
+    },
+    {
+      "path": "profiles/badman/host/badman_dma.cpp",
+      "bytes": 2194,
+      "sha256": "b2a7e16902a1881cfd1277c8f27f6e550ff89f0f0bfa93743f84c94f91e86f8d"
+    },
+    {
+      "path": "profiles/badman/host/badman_events.cpp",
+      "bytes": 9135,
+      "sha256": "2d887c38ee90619e1eb8ac3471cb0d02e669eb27973dc30d9983239dc55cb905"
+    },
+    {
+      "path": "profiles/badman/host/badman_exit_services.cpp",
+      "bytes": 6036,
+      "sha256": "48550dd5b5c1fd51cc86014998a955cbaa8ed3a8c2f4391e30b99dcf103f16bd"
+    },
+    {
+      "path": "profiles/badman/host/badman_ffmpeg_loader.hpp",
+      "bytes": 2711,
+      "sha256": "0f4799b3144b29bbfa3c3f40886804cff6e48afe7b2b3152bf6a7c7f361f046f"
+    },
+    {
+      "path": "profiles/badman/host/badman_ge.cpp",
+      "bytes": 10692,
+      "sha256": "08f502bf5c2ee6b2cc72c5f3713df46782ccdf80facb61bb86cf2c210cb1ac5c"
+    },
+    {
+      "path": "profiles/badman/host/badman_ge.hpp",
+      "bytes": 3762,
+      "sha256": "234f637ffee377f022c5e103d6ab559e1faeb63b8367716b3c8a13ee442475af"
+    },
+    {
+      "path": "profiles/badman/host/badman_ge_hle.cpp",
+      "bytes": 3771,
+      "sha256": "52e09e3bd19ea647e28778e2c68306ec70a5c73db7e958c73aa905e94595c541"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_cpu.cpp",
+      "bytes": 11181,
+      "sha256": "1c649e96840027d096a519682730df9f2cdeaa7a6538a61843c2e979fc34b54a"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_d3d11.cpp",
+      "bytes": 13605,
+      "sha256": "d318d26896ec503529e7c1c40a802cd793d4ecb196c622907c1dc24c7ed84c84"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_device.hpp",
+      "bytes": 1362,
+      "sha256": "44ad02038680dd69c8a74ab8df161a8f035fab832984ff1199bab962eff22686"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_raster.cpp",
+      "bytes": 7750,
+      "sha256": "33c187126275e06f328593340aae8991bde566d3765d678c98b2a244d70d454d"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_raster.hpp",
+      "bytes": 1935,
+      "sha256": "fe864544ab1c0767f504e7482530a7ad3283a384158cbe2abfd87393445965b6"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_shader.hlsl",
+      "bytes": 5193,
+      "sha256": "d74a55df5106fd657d01aa9e53ac6228cb6f19547f3ef30f13b7fa582b0b7bd6"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_shader.hpp",
+      "bytes": 132129,
+      "sha256": "e0fb8db3be26c1593139009454d0637e63152a0fca73272cfecefcc8d1ea4d20"
+    },
+    {
+      "path": "profiles/badman/host/badman_gpu_vulkan.cpp",
+      "bytes": 19854,
+      "sha256": "dcd2e220b9c50f5a88e0d75cdd1b8d80aa97865545067c15065459635dae6384"
+    },
+    {
+      "path": "profiles/badman/host/badman_host.cpp",
+      "bytes": 32265,
+      "sha256": "3c0785e2a6b22c1fdd9338969e136d62f2fe0ef4af77b43cb85e4b170171b602"
+    },
+    {
+      "path": "profiles/badman/host/badman_host.hpp",
+      "bytes": 12621,
+      "sha256": "bdecd6ba90c99f330c968b08fdc4dc1f2a405198c5234e1950df74a95cd1575c"
+    },
+    {
+      "path": "profiles/badman/host/badman_input.cpp",
+      "bytes": 5429,
+      "sha256": "06294bdecfa0ada1ad024b414f6340ab3b9464a2f1edf9499dcf87c047adec43"
+    },
+    {
+      "path": "profiles/badman/host/badman_input.hpp",
+      "bytes": 3501,
+      "sha256": "a6aaee1fdb8e06cb677bdb2616c195619f7f1289df9e90ded6b984daaae88812"
+    },
+    {
+      "path": "profiles/badman/host/badman_io.cpp",
+      "bytes": 6937,
+      "sha256": "f058f846726f5fbc81d3ca1303be123824932f1afdfe54bb5fa5a6c0b090c3d0"
+    },
+    {
+      "path": "profiles/badman/host/badman_modules.cpp",
+      "bytes": 16028,
+      "sha256": "ceeaf9d1725cefa35d751f491a22feb2e9d7eb37bb4d60acb729264a7702c9e1"
+    },
+    {
+      "path": "profiles/badman/host/badman_mpeg.cpp",
+      "bytes": 28304,
+      "sha256": "01002edabd611f960bd151c2d86d3583e6c95b751926a11333db332b95bf0e43"
+    },
+    {
+      "path": "profiles/badman/host/badman_mpeg.hpp",
+      "bytes": 4244,
+      "sha256": "527bb45a9bfcd773434280d2b96dc61f2f16fbedeabf160f672ccf69f3ce9fd8"
+    },
+    {
+      "path": "profiles/badman/host/badman_mpeg_hle.cpp",
+      "bytes": 3865,
+      "sha256": "86e5865192863ea0e7718d31c38e11d645983a2ac834f9f08f55d86b0193e231"
+    },
+    {
+      "path": "profiles/badman/host/badman_native_fs.cpp",
+      "bytes": 12375,
+      "sha256": "a66202df5e7496c87110e9fd4f275701322d38b651d621205e6862f228684931"
+    },
+    {
+      "path": "profiles/badman/host/badman_native_fs.hpp",
+      "bytes": 787,
+      "sha256": "3757faacc52c587842024b9a47c3dd0ad49a130a08775412e72d112e557ed44c"
+    },
+    {
+      "path": "profiles/badman/host/badman_osk.cpp",
+      "bytes": 8910,
+      "sha256": "013302b043d49da73ff71dd255e01dda792fed1ae417b5378995fa283dde24ce"
+    },
+    {
+      "path": "profiles/badman/host/badman_osk.hpp",
+      "bytes": 2148,
+      "sha256": "cffcba370fb308db46cdab69991efdae48f3f3994ef8d5f90653cda8162c9257"
+    },
+    {
+      "path": "profiles/badman/host/badman_osk_hle.cpp",
+      "bytes": 2524,
+      "sha256": "1a5a454e2275a7a72214946c63f3b73c5f7fbe7f09d12a76a9e0b4546f8c89c2"
+    },
+    {
+      "path": "profiles/badman/host/badman_presenter.cpp",
+      "bytes": 49776,
+      "sha256": "81f253bfc70c3cbcf05ffe9f4ea3e46d50e89f149f6d0fb1059d42eed01eb938"
+    },
+    {
+      "path": "profiles/badman/host/badman_presenter.hpp",
+      "bytes": 3268,
+      "sha256": "27ef1c41834f07fbaea3e7866f02fb04388cd1e8a9efee782cd88604eed268a4"
+    },
+    {
+      "path": "profiles/badman/host/badman_raster.cpp",
+      "bytes": 75839,
+      "sha256": "35826b3ff616f841dd663552c983d998e42290d63b05eb425ed55a061f3fe176"
+    },
+    {
+      "path": "profiles/badman/host/badman_raster.hpp",
+      "bytes": 2525,
+      "sha256": "b6cd7b3c6f8ad4468acce26a343ae6a6c722bdd199244468f337f10986dbb578"
+    },
+    {
+      "path": "profiles/badman/host/badman_registry.cpp",
+      "bytes": 12243,
+      "sha256": "dd5184626780fbc2c3616be7ec0745204efb24755b1449c7ee1e38019b458782"
+    },
+    {
+      "path": "profiles/badman/host/badman_registry.hpp",
+      "bytes": 1463,
+      "sha256": "d71a6a262debc7136b240f64693dd75b08b2e0d18e041ceea7ae5e7ef2cec64d"
+    },
+    {
+      "path": "profiles/badman/host/badman_savedata.cpp",
+      "bytes": 35405,
+      "sha256": "0bb9c81050f513f016ff1d56b48a4ca5cd0b3384ca58089e5cfe774fa25ab079"
+    },
+    {
+      "path": "profiles/badman/host/badman_savedata.hpp",
+      "bytes": 3048,
+      "sha256": "e87819a1208b4a7b64b07857c2f55f2ff97a3c3292beb3984d6c54bd52cc3f16"
+    },
+    {
+      "path": "profiles/badman/host/badman_savedata_hle.cpp",
+      "bytes": 4514,
+      "sha256": "5ce9af03bc85da460e68d43e8776f1d9ff35816ffb804d0fcb83fbe4e56eafe3"
+    },
+    {
+      "path": "profiles/badman/host/badman_scene.cpp",
+      "bytes": 16164,
+      "sha256": "5c541a9a88c0899b336dc4dee749aaba811c7d430ebc7f0bcca021bb41effbc4"
+    },
+    {
+      "path": "profiles/badman/host/badman_scene.hpp",
+      "bytes": 5854,
+      "sha256": "da4a6b03af22ed4bedf0fc2dbf1d47e6aecff21bb775be9524f19c9a001d8075"
+    },
+    {
+      "path": "profiles/badman/host/badman_scene_render.cpp",
+      "bytes": 9402,
+      "sha256": "0115a179637f6f6183aeabc12b4cb8eee510d94a476aa4d6ffe78167420a0799"
+    },
+    {
+      "path": "profiles/badman/host/badman_scene_render.hpp",
+      "bytes": 4912,
+      "sha256": "4b026a8ea47e625fc8061796605e99b714daf1f49a1fbd2178e9e15d7ee21775"
+    },
+    {
+      "path": "profiles/badman/host/badman_screenshot.cpp",
+      "bytes": 10891,
+      "sha256": "55b37838e685b667a80974d7afa8f47b53b40f8954407e1ebab5036c13ce3427"
+    },
+    {
+      "path": "profiles/badman/host/badman_screenshot.hpp",
+      "bytes": 1388,
+      "sha256": "c98a6d33348c936dcb99cc0eb2275c0b59413905e9845f0bde70aee6ecdb5897"
+    },
+    {
+      "path": "profiles/badman/host/badman_screenshot_hle.cpp",
+      "bytes": 2073,
+      "sha256": "a03041f48fb7dd8faaa85b5501892173e4beea93a49485b10ad8486d2b9cfaa0"
+    },
+    {
+      "path": "profiles/badman/host/badman_self_exit.cpp",
+      "bytes": 1778,
+      "sha256": "91de55083fd30c352a347ec5c46a94044b01f9a1f7e879a950acfe746bf3df00"
+    },
+    {
+      "path": "profiles/badman/host/badman_startup.cpp",
+      "bytes": 3099,
+      "sha256": "aa5ae59038cc7ef49f3f8bfdc81c3a2a629bd1a0f053d1080c20fe799593228d"
+    },
+    {
+      "path": "profiles/badman/host/badman_startup.hpp",
+      "bytes": 2828,
+      "sha256": "1bae08f613d6d5df60277824561ed28269557be368f23af8aec4f48c1ac944ad"
+    },
+    {
+      "path": "profiles/badman/host/badman_sync.cpp",
+      "bytes": 7579,
+      "sha256": "6f15fc634ab251f0b6de6649cdd12f5e7a34936912ce928abb9c9a73004bb0ec"
+    },
+    {
+      "path": "profiles/badman/host/badman_texture.cpp",
+      "bytes": 11683,
+      "sha256": "bfc6cbf2a67e89c26122ffa14a3612da1e0a5b504f6f2075a70b07cbcf9c31a9"
+    },
+    {
+      "path": "profiles/badman/host/badman_texture.hpp",
+      "bytes": 3039,
+      "sha256": "f3a74e91fb2b7f27fa420dcc38d14f19e62f8efb10222149c2d8c485bf315b96"
+    },
+    {
+      "path": "profiles/badman/host/badman_thread_services.cpp",
+      "bytes": 10873,
+      "sha256": "2e3df59878c91c906dad5989babf4872ae285d4b118bd1f3d225b007bc767fda"
+    },
+    {
+      "path": "profiles/badman/host/badman_video.hpp",
+      "bytes": 1620,
+      "sha256": "21c4238714124224c6063683b74f7bbd222e7a3782c10831e164f4304e3068bc"
+    },
+    {
+      "path": "profiles/badman/host/badman_video_ffmpeg.cpp",
+      "bytes": 16424,
+      "sha256": "9bf50794e75bc4cee080300d449874632d679bb8d4c745209f078ac80e4bda1f"
+    },
+    {
+      "path": "profiles/badman/host/badman_window.cpp",
+      "bytes": 46982,
+      "sha256": "b2d249e2c3ed0f94068c16aac169c8619dd683dd7e6460b20d669f79b7d53084"
+    },
+    {
+      "path": "profiles/badman/host/badman_window.hpp",
+      "bytes": 2962,
+      "sha256": "769ed09167a82b100c9f8812dc3174914cb14de681df36931008181ff12adada"
+    },
+    {
+      "path": "profiles/badman/host/badman_workers.cpp",
+      "bytes": 2690,
+      "sha256": "982d4e327808a13dfbd9ace82492bf72aae2bf7e848851ee211eb15e13f74575"
+    },
+    {
+      "path": "profiles/badman/host/badman_workers.hpp",
+      "bytes": 1622,
+      "sha256": "04fcf991d3f204b38eb6c77bdc21bf02e73566ba9fbaece2bebb122f9e447a02"
+    },
+    {
+      "path": "profiles/badman/host/font_probe.cpp",
+      "bytes": 11882,
+      "sha256": "7cc95902fbdb91b05ac5ca52bfbbba65255b7dd2862a9a50f0add19bb61ba57d"
+    },
+    {
+      "path": "profiles/badman/host/game_entry.cpp",
+      "bytes": 764,
+      "sha256": "c6a0e59a695e95bea7e373744988f2e037a6c22b2b6eeb029c7c29baea4e1fa4"
+    },
+    {
+      "path": "profiles/badman/host/launcher.cpp",
+      "bytes": 35645,
+      "sha256": "97d846eae453597c10559bd6b09cdd10eca0f3afbbac6278f42f729a0321ba92"
+    },
+    {
+      "path": "profiles/badman/host/main.cpp",
+      "bytes": 31375,
+      "sha256": "c3828fc39537e00d7cdf792204da8c308d25eb10603474539f23aef40a8dfeb7"
+    },
+    {
+      "path": "profiles/badman/host/mpeg_probe.cpp",
+      "bytes": 10507,
+      "sha256": "fd844b76252724d4ce290c0e9c1aaae9980b2c0b575555c0acfa5e573f308e93"
+    },
+    {
+      "path": "profiles/badman/host/runtime_library.cpp",
+      "bytes": 327,
+      "sha256": "b7c3b8cfbb1322495fe2b61376abda064bd66bcee50fbba05e7c2116d730da58"
+    },
+    {
+      "path": "profiles/badman/host/windows.manifest",
+      "bytes": 596,
+      "sha256": "aa6cd99442b0ec1852e70c601226936e7083c1f60670a0a989c204d15f63a37d"
+    },
+    {
+      "path": "profiles/badman/tools/build_game.py",
+      "bytes": 29710,
+      "sha256": "73a5aa7718d7435cb8d7e9c953c1d4ad40c10de3e7f9f366da16aa0194c0e9fa"
+    },
+    {
+      "path": "profiles/badman/tools/embed_profile_facts.py",
+      "bytes": 5086,
+      "sha256": "d3d776b37c78c6ebb5cdfee68c17d30a223a8681c58e6bb4973f1cb145b7eb02"
+    },
+    {
+      "path": "profiles/badman/tools/generate.py",
+      "bytes": 5621,
+      "sha256": "e387d7a9945059819dcbd984e7f79178c1ab7e83d34eebff3c7804dd76998509"
+    },
+    {
+      "path": "profiles/badman/tools/generate_font.py",
+      "bytes": 12685,
+      "sha256": "23f8a8185e4c88291232d41a0bb4e3f601d10758d9a0aca76a00333d9efe9150"
+    },
+    {
+      "path": "profiles/badman/tools/native/badman_prepare.cpp",
+      "bytes": 35506,
+      "sha256": "a90b47ea36f335961534a79bdb845fe21ccf670aa62aef6efa6c45024cc7355c"
+    },
+    {
+      "path": "profiles/badman/tools/player_storage.py",
+      "bytes": 11844,
+      "sha256": "f377365b0d48cc3948d39e2efd7d527ffa91916a385c0d5c89cb75aefb86d5c0"
+    },
+    {
+      "path": "profiles/badman/tools/prepare_font.py",
+      "bytes": 8022,
+      "sha256": "314342f0cd867637911bbbdeb63920c9ba2643fbe8b8ca64604bea98d7463bbf"
+    },
+    {
+      "path": "profiles/badman/tools/reconstruct_font.py",
+      "bytes": 10560,
+      "sha256": "f9940e04edffe26fadea7880878b0719b90a89bac18f6f2e8ea6f283d4373017"
+    },
+    {
+      "path": "profiles/badman/tools/setup_game.py",
+      "bytes": 35520,
+      "sha256": "964accd6b52d181e0a2c0836e6065140c66a233e613d9274dc3a565c895a38b4"
+    },
+    {
+      "path": "profiles/badman/tools/toolchain_bootstrap.py",
+      "bytes": 27998,
+      "sha256": "71ade1ce7c2e5a39e54538e064294c3f70edbd8e34164283592faccfb3ee5f45"
+    },
+    {
+      "path": "src/decoder.cpp",
+      "bytes": 20820,
+      "sha256": "40df017fd1d34056506d6d7fd3654c015fe622339353b08cd41af773676486f0"
+    },
+    {
+      "path": "src/deflate.cpp",
+      "bytes": 12691,
+      "sha256": "c95c569f0f56a339aca4ab18f80da1c3818c8745fb91f41be0368f1b60cba1a5"
+    },
+    {
+      "path": "src/elf32.cpp",
+      "bytes": 18590,
+      "sha256": "e743d5b38ceb85a62eec4e3641c8bb8104ae95e536a59a9da27afc9611e5e88f"
+    },
+    {
+      "path": "src/guest_memory.cpp",
+      "bytes": 21989,
+      "sha256": "91d280b980a81a3a203fc0d66b74f963cebc1d955a656d635d9c1fd8fb0bc3c6"
+    },
+    {
+      "path": "src/iso9660.cpp",
+      "bytes": 6633,
+      "sha256": "53436f27e19dd9a84a5da71c3a130d0634ccce3cd9c9c4f1d5ccec116407b074"
+    },
+    {
+      "path": "src/nid_registry.cpp",
+      "bytes": 8147,
+      "sha256": "e2a46eb4b24c010e8d17ec64c3939396ea29a0d60feee2879322f2524956bcf6"
+    },
+    {
+      "path": "src/program_analysis.cpp",
+      "bytes": 20526,
+      "sha256": "08cdf1da3adb3f5ccf7211e98cfcd21c77db23278bc37863fe85e50eabbb74b7"
+    },
+    {
+      "path": "src/runtime.cpp",
+      "bytes": 64061,
+      "sha256": "659ebab5f47c130e087db520235ff7815aee281594d60d45208e6e6673527865"
+    },
+    {
+      "path": "src/sha256.cpp",
+      "bytes": 4228,
+      "sha256": "449841257cf4dfb3f13cdf90323b750b70a7d6a51986db68742f692227bbd632"
+    },
+    {
+      "path": "third_party/vulkan_headers/LICENSE.md",
+      "bytes": 458,
+      "sha256": "ac24e5ea920e4318e4d02c4086ae51f53cfb03feed06c18df1019e7ada1ec7bc"
+    },
+    {
+      "path": "third_party/vulkan_headers/LICENSES/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "third_party/vulkan_headers/LICENSES/MIT.txt",
+      "bytes": 1084,
+      "sha256": "1ca3502222d967f3be5751c55f6b7ee735b5383909c3b501495f54b216dbf227"
+    },
+    {
+      "path": "third_party/vulkan_headers/PROVENANCE.json",
+      "bytes": 5044,
+      "sha256": "8ca9a0dd2337dd96f1470ed781221547a58cf6914e6c812f659f20f28e8d43d4"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_av1std.h",
+      "bytes": 16507,
+      "sha256": "f3ab53dbfdeb36a349f674656d50bd507f2e4b3c883343da74aace0df4f02a02"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_av1std_decode.h",
+      "bytes": 4250,
+      "sha256": "96f923dc01cd3e266c081d88fa020525a20d63ffe4ce09a4c807a04ef3aaf97e"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h264std.h",
+      "bytes": 13853,
+      "sha256": "072ee6eac80e73d93bb4bfe0059f99e581fc8b55b1437236185bb4ff377914b1"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h264std_decode.h",
+      "bytes": 2722,
+      "sha256": "e1708b3996a740eeedb79f51d0f0e379f9bcae13566538375acaf73301023b58"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h264std_encode.h",
+      "bytes": 6878,
+      "sha256": "052a6e357be8d88bf4be0db1b3da5a9cc1a6011cf4b3533759ff588e1e26f9f1"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h265std.h",
+      "bytes": 23416,
+      "sha256": "0cbdfd6c45ee8ca902e9c961cd7e49a4d601d443ea0ef2a60a8496b127ed397c"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h265std_decode.h",
+      "bytes": 2428,
+      "sha256": "800946aa19d83d305d504e2e4141bc938f989e0cf8872cef97480238eefef1ea"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codec_h265std_encode.h",
+      "bytes": 7462,
+      "sha256": "7239f9f4e811546639111e562a8be1ec73ad5bef1c23d5fad80889f35e125e9c"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vk_video/vulkan_video_codecs_common.h",
+      "bytes": 660,
+      "sha256": "78cf3c99d3d57afa7ab1782ec6018b4bcdbe273f2843d76e3375282db875b71e"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vulkan/vk_platform.h",
+      "bytes": 2828,
+      "sha256": "c4cabbcf699c90cde344095ae54da9435d117951aad114ba3a540c5997d7906f"
+    },
+    {
+      "path": "third_party/vulkan_headers/include/vulkan/vulkan_core.h",
+      "bytes": 1007428,
+      "sha256": "24b258dbfc5f177206fbffcf35f3a87cf756ee6f883167b92ecaeab16a5aa005"
+    },
+    {
+      "path": "tools/analyzer_main.cpp",
+      "bytes": 10325,
+      "sha256": "389b7a13f1c62784c0e8c12a4aed213e6446cb70861098e1b9ef0fd36c6da516"
+    },
+    {
+      "path": "tools/codegen_main.cpp",
+      "bytes": 99102,
+      "sha256": "18d2359c4be6fe2712c78d8548c3a99861b2d439978e5a52433dbf41979094a8"
+    },
+    {
+      "path": "tools/dump_function.cpp",
+      "bytes": 1126,
+      "sha256": "fe444745472037ad61dec2e4924822b8028168dd87b4c2210afe495fbb5c2eda"
+    },
+    {
+      "path": "tools/iso_extract_main.cpp",
+      "bytes": 2552,
+      "sha256": "9e5115d453c50629c5851608af64d36d02b74a196b1d6328b6c81fe7362f92a3"
+    },
+    {
+      "path": "tools/windows.manifest",
+      "bytes": 568,
+      "sha256": "b30f24fd1bb6c594a1d38a04948673dee04d268f7f57860211b127ea7945733d"
+    }
+  ]
+}

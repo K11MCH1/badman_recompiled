@@ -1,0 +1,3 @@
+// The Badman Recompiled icon (pixel art, the same as the Android app): resource 1,
+// so Explorer shows it for the executable and windows load it by MAKEINTRESOURCE(1).
+1 ICON "badman.ico"

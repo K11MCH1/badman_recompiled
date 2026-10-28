@@ -1,4 +1,4 @@
-# Badman Recompiled
+![Badman Recompiled](.github/banner.png)
 
 A native PC and Android version of **Holy Invasion of Privacy, Badman! What Did I
 Do to Deserve This?** (PSP, North America, `ULUS10456`, version 1.01), made by
@@ -17,9 +17,11 @@ supported release, extracts and decrypts it, translates the game's MIPS
 phone. The game then runs on an independently written runtime that stands in for
 the PSP's hardware and system software.
 
-No game files are included or downloaded: no ISO, no game code (original or
-translated), no game artwork, music or text. Everything game-specific is
-produced on your device from your ISO and stays there.
+The downloads and the source code contain no game files, and nothing
+game-related is downloaded: no ISO, no game code (original or translated), no
+game artwork, music or text. Everything game-specific is produced on your
+device from your ISO and stays there. (The banner above is fan art based on
+the game's title screen.)
 
 > **Status:** an early release. On Windows the game reaches the title with
 > sound, clears Training 1–3 and the first two Story stages through normal
@@ -166,7 +168,7 @@ compiled on the player's device.
 
 *Holy Invasion of Privacy, Badman! What Did I Do to Deserve This?* is © 2009
 Sony Computer Entertainment Inc. This project is not affiliated with or
-endorsed by Sony, and it contains no part of the game.
+endorsed by Sony; its downloads and source code contain no part of the game.
 
 ## Licence
 

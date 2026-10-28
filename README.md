@@ -1,4 +1,4 @@
-![Badman Recompiled](.github/banner.png)
+![Badman Recompiled](.github/banner_recompile.png)
 
 A native PC and Android version of **Holy Invasion of Privacy, Badman! What Did I
 Do to Deserve This?** (PSP, North America, `ULUS10456`, version 1.01), made by
